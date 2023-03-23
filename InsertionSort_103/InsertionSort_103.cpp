@@ -70,8 +70,9 @@ void display()
 
     for (int j = 0; j < n; j++)
     {                             // Looping dengan j dimulai dari 0 hingga n-1
-
+        cout << arr[j] << endl;     // Output ke layar
     }
+    cout << endl;       // Output baris kosong
 }
 
 
@@ -80,5 +81,7 @@ void display()
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    input();        // Memanggil input
+    insertionsort();        // Memanggil insertionsort
+    display();      // Memanggil display
 }
