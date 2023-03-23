@@ -8,7 +8,7 @@ void input()
 {   // Procedure input
     while (true)
     {
-        cout << "Masukkan Jumlah Data Array : ";        // Membuat inputan Jumlah Elemen Array
+        cout << "Masukkan Jumlah Data pada Array : ";        // Membuat inputan Jumlah Elemen Array
         cin >> n;                                       // Memanggil variable inputan n
         if (n <= 20)
         {   // Membuat kondisi n tidak lebih dari 20 
@@ -29,7 +29,7 @@ void input()
         cout << "Data ke-" << (i + 1) << ": ";              // Masukkan atau menginput nilai pada data n
         cin >> arr[i];                                     // Masukkan nilai data n kedalam array arr
     }
-}
+};
 // Procedure Insertionsort
 void insertionsort()
 {
@@ -43,7 +43,7 @@ void insertionsort()
 
         j = i - 1;  // 3. Setting nilai j sama dengan i-1;
 
-        while (j >= 0 && arr[j] > temp);    // 4. Looping while dimana nilai j lebih besar sama dengan 0
+        while (j >= 0 && arr[j] > temp);      // 4. Looping while dimana nilai j lebih besar sama dengan 0
         {                                   // arr{j] lebih besar daripada temp
             arr[j + 1] = arr[j];    // a. Simpan arr[j] ke dalam variable arr[j + 1]
             j--;                    // b. Decrement nilai j by 1
@@ -58,12 +58,12 @@ void insertionsort()
             cout << arr[k] << " ";      // Output ke layar
         }
     }
-}
+};
 
 void display()
 {
     cout << endl;                  // Output baris kosong
-    cout << "Total Element Movement = " << n - 1 << endl;       // cout movement elemen
+    cout << "Total Element Movement = " << n-1 << endl;       // cout movement elemen
     cout << "\n===============================" << endl;        // Output ke layar
     cout << "Element Array yang telah tersusun" << endl;        // Output ke layar
     cout << "===============================" << endl;          // Output ke layar
