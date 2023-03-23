@@ -26,10 +26,15 @@ void input()
 
     for (int i = 0; i < n; i++)     // Menggunakan perulangan for untuk menyimpan data pada array
     {
-
+        cout << "Data ke-" << (i + 1) << ": ";              // Masukkan atau menginput nilai pada data n
+        cin >> arr[i];                                     // Masukkan nilai data n kedalam array arr
     }
 }
+// Procedure Insertionsort
+void insertionsort()
+{
 
+}
 
 
 
