@@ -54,10 +54,15 @@ void insertionsort()
         cout << endl;
         cout << "\nPass " << i << ": "; // Output ke layar
         for (int k = 0; k < n; k++)
-        {
-
+        {                               // Looping k dimulai dari dari 0 hingga n-1
+            cout << arr[k] << " ";      // Output ke layar
         }
     }
+}
+
+void display()
+{
+
 }
 
 
