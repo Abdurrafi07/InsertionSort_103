@@ -8,7 +8,12 @@ void input()
 {   // Procedure input
     while (true)
     {
+        cout << "Masukkan Jumlah Data Array : ";        // Membuat inputan Jumlah Elemen Array
+        cin >> n;                                       // Memanggil variable inputan n
+        if (n <= 20)
+        {
 
+        }
     }
 }
 
